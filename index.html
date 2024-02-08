@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2f01e0402b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+ 
+    <title>Ecommerce</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <h2><a href="">Loop Verse</a></h2>
+            </div>
+            <div class="mid">
+                <input type="text" class="search" placeholder="Search your products, Brands">
+            </div>
+            <div class="right">
+                <div class="icon-titles" id="user">
+                    <a href=""><i class="fa-regular fa-user"></i>
+                    <h3>Login <i class="fa-solid fa-angle-down"></i></h3></a>
+                    <div class="drop-menu">
+                        <ul>
+                            <li><h4>Not a member? </h4><a href="" class="sign">Sign Up</a></li>
+                            <li><a href="">Profile</a></li>
+                            <li><a href="">Edit</a></li>
+                            <li><a href="">Orders</a></li>
+                            <li><a href="">Log Out</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div class="icon-titles">
+                   <a href=""> <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Cart</h3></a>
+                    
+                </div>
+                <div class="icon-titles" id="contact">
+                    <a href=""><h3><i class="fa-solid fa-ellipsis-vertical"></i></h3></a>
+                    <div class="drop-menu" id="drop-menu-contact">
+                        <ul>
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Privay and Policy</a></li>
+    
+                        </ul>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="drop-responsive">
+                <ul>
+                    <li><h4>Not a member? </h4><a href="" class="sign">Sign Up</a></li>
+                    <li><a href="">Profile</a></li>
+                    <li><a href="">Edit</a></li>
+                    <li><a href="">Orders</a></li>
+                    <li><a href="">Log Out</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Privay and Policy</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="top-box">
+            <div class="left-section">
+                <h2>Our Products</h2>
+                <div class="horizental"></div>
+                <div class="categories">
+                    <ul>
+                        <li><a href="">Headphones</a></li>
+                        <li><a href="">Laptops</a></li>
+                        <li><a href="">Camers</a></li>
+                        <li><a href="">Televison</a></li>
+                        <li><a href="">Smart Watches</a></li>
+                        <li><a href="">Mobile Phones</a></li>
+                        <li><a href="">Refrigerator</a></li>
+                        <li><a href="">Washing Machine</a></li></li>
+                        <li><a href="">Home Theatres</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-section"></div>
+        </section>
+        <section id="products">
+            <ul class="tabs">
+                <li class="tab active" onclick="openProducts(event,'laptops')"><h2 class="product-names">Laptops</h2></li>
+                <li class="tab" onclick="openProducts(event,'mobile')"><h2 class="product-names">Mobile & Smart Watches</h2></li>
+                <li class="tab" onclick="openProducts(event,'cameras')"><h2 class="product-names">Cameras</h2></li>
+                <span class="small-screen"><br></span>
+                <li class="tab" onclick="openProducts(event,'television')"><h2 class="product-names">Televison</h2></li>
+                <li class="tab" onclick="openProducts(event,'refrigerator')"><h2 class="product-names">Regfrigerator & Washing Machine</h2></li>
+                <li class="tab" onclick="openProducts(event,'homeTheatres')"><h2 class="product-names">Home Theatres</h2></li>
+            </ul>
+                <div id="laptops" class="tab-content active">
+                    <h2 class="heading">Laptops</h2>
+                    <div class="horizental-line"></div>
+                    <div class="product-main">
+                        <h3 class="sub-heading">Dell Series</h3>
+                        <div class="product-box">
+                            <div class="my-products">
+                                <img src="images/laptop/01.webp" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/laptop/05.webp" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/laptop/06.jpg" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/laptop/07.jpg" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/laptop/02.jpg" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="product-main">
+                        <h3 class="sub-heading">HP Series</h3>
+                        <div class="product-box">
+                            <div class="my-products">
+                                <img src="images/laptop/01.webp" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/laptop/03.jpg" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/laptop/04.jpg" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/laptop/09.jpg" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+                <div id="mobile" class="tab-content">
+                    <h2 class="heading">Mobile & Smart Watches</h2>
+                    <div class="horizental-line2"></div>
+                    <div id="sub-products">
+                        <ul class="sub-tabs">
+                            <li class="subTab active" onclick="openSubProducts(event,'mobiles')"><h2 class="product-names">Mobile Phones</h2></li>
+                            <li class="subTab" onclick="openSubProducts(event,'smartWatches')"><h2 class="product-names">Smart Watches</h2></li>
+                        </ul>
+                        <div class="sub-tab-content active" id="mobiles">
+                            <div class="product-main">
+                                <h3 class="sub-heading">Samsung</h3>
+                                <div class="horizental"></div>
+                                <div class="product-box" id="mobilePhones">
+                                    <div class="my-products">
+                                        <img src="images/mobile/samsung/01.jpg" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/mobile/samsung/02.jpg"alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/mobile/samsung/04.png" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/mobile/samsung/06.jpg" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/mobile/samsung/08.jpg" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/mobile/samsung/09.png" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                            <div class="product-main">
+                                <h3 class="sub-heading">Redmi</h3>
+                                <div class="horizental"></div>
+                                <div class="product-box" id="mobilePhones">
+                                    <div class="my-products">
+                                        <img src="images/mobile/redmi/01.jpg" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/mobile/redmi/02.jpg"alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/mobile/redmi/03.jpg" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/mobile/redmi/04.jpg" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/mobile/redmi/05.jpg" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                            <div class="product-main">
+                                <h3 class="sub-heading">Google</h3>
+                                <div class="horizental"></div>
+                                <div class="product-box" id="mobilePhones">
+                                    <div class="my-products">
+                                        <img src="images/mobile/google/01.jpg" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/mobile/google/02.jpg"alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/mobile/google/03.jpg" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/mobile/google/04.png" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/mobile/google/04.png" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/mobile/google/05.jpg" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/mobile/google/08.webp" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                            <div class="product-main">
+                                <h3 class="sub-heading">One Plus</h3>
+                                <div class="horizental"></div>
+                                <div class="product-box" id="mobilePhones">
+                                    <div class="my-products">
+                                        <img src="images/mobile/oneplus/01.jpg" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/mobile/oneplus/02.jpg"alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/mobile/oneplus/03.webp" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/mobile/oneplus/04.png" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/mobile/oneplus/05.webp" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/mobile/oneplus/06.jpg" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                        <div id="smartWatches" class="sub-tab-content">
+                            <div class="product-main">
+                                <h3 class="sub-heading">Smart Watches</h3>
+                                <div class="horizental1"></div>
+                                <div class="all-container">
+                                    <div class="product-box" id="product-box">
+                                        <div class="my-products">
+                                            <img src="images/watches/04.jpg" alt="" loading="lazy">
+                                            <h2 class="lp-name">Inspiron</h2>
+                                            <div class="book-read">
+                                                <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                                <h2><a href="">Details</a></h2>
+                                            </div>
+                                        </div>
+                                        <div class="my-products">
+                                            <img src="images/watches/02.webp" alt="" loading="lazy">
+                                            <h2 class="lp-name">Inspiron</h2>
+                                            <div class="book-read">
+                                                <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                                <h2><a href="">Details</a></h2>
+                                            </div>
+                                        </div>
+                                        <div class="my-products">
+                                            <img src="images/watches/04.jpg" alt="" loading="lazy">
+                                            <h2 class="lp-name">Inspiron</h2>
+                                            <div class="book-read">
+                                                <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                                <h2><a href="">Details</a></h2>
+                                            </div>
+                                        </div>
+                                        <div class="my-products">
+                                            <img src="images/watches/03.webp" alt="" loading="lazy">
+                                            <h2 class="lp-name">Inspiron</h2>
+                                            <div class="book-read">
+                                                <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                                <h2><a href="">Details</a></h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-box" id="product-box">
+                                        <div class="my-products">
+                                            <img src="images/watches/04.jpg" alt="" loading="lazy">
+                                            <h2 class="lp-name">Inspiron</h2>
+                                            <div class="book-read">
+                                                <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                                <h2><a href="">Details</a></h2>
+                                            </div>
+                                        </div>
+                                        <div class="my-products">
+                                            <img src="images/watches/03.webp" alt="" loading="lazy">
+                                            <h2 class="lp-name">Inspiron</h2>
+                                            <div class="book-read">
+                                                <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                                <h2><a href="">Details</a></h2>
+                                            </div>
+                                        </div>
+                                        <div class="my-products">
+                                            <img src="images/watches/05.jpg" alt="" loading="lazy">
+                                            <h2 class="lp-name">Inspiron</h2>
+                                            <div class="book-read">
+                                                <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                                <h2><a href="">Details</a></h2>
+                                            </div>
+                                        </div>
+                                        <div class="my-products">
+                                            <img src="images/watches/06.webp" alt="" loading="lazy">
+                                            <h2 class="lp-name">Inspiron</h2>
+                                            <div class="book-read">
+                                                <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                                <h2><a href="">Details</a></h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="cameras" class="tab-content">
+                    <h2 class="heading">Cameras</h2>
+                    <div class="horizental-line"></div>
+                    <div class="product-main">
+                        <div class="horizental"></div>
+                        <div class="product-box" id="product-box3">
+                            <div class="my-products">
+                                <img src="images/camera/01.jpg" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/camera/02.png" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/camera/03.jpg" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/camera/04.jpg" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/camera/07.webp" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/camera/09.webp" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+                <div id="television" class="tab-content">
+                    <h2 class="heading">Televison</h2>
+                    <div class="horizental-line"></div>
+                    <div class="product-main">
+                        <h3 class="sub-heading">Sony</h3>
+                        <div class="horizental"></div>
+                        <div class="product-box">
+                            <div class="my-products">
+                                <img src="images/tv/sony/01.webp" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/tv/sony/02.jpeg" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/tv/sony/03.jpeg" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/tv/sony/04.webp" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/tv/sony/06.jpg" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/tv/sony/09.webp" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="product-main">
+                        <h3 class="sub-heading">Samsung</h3>
+                        <div class="horizental1"></div>
+                        <div class="product-box">
+                            <div class="my-products">
+                                <img src="images/tv/sm/01.png" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/tv/sm/02.png" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/tv/sm/03.webp" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/tv/sm/04.jpg" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/tv/sm/05.png" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/tv/sm/06.jpg" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="product-main">
+                        <h3 class="sub-heading">MI</h3>
+                        <div class="horizental1"></div>
+                        <div class="product-box">
+                            <div class="my-products">
+                                <img src="images/tv/mi/01.png" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/tv/mi/02.jpg" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/tv/mi/03.jpg" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/tv/mi/04.jpg" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/tv/mi/05.png" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/tv/mi/06.jpg" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+                <div id="refrigerator" class="tab-content">
+                    <h2 class="heading">Refrigerator & Washing Machine</h2>
+                    <div class="horizental-line2"></div>
+                    <div id="sub-products">
+                        <ul class="sub-tabs">
+                            <li class="subTab active" onclick="openSubProducts(event,'fridge')"><h2 class="product-names">Refrigerator</h2></li>
+                            <li class="subTab" onclick="openSubProducts(event,'washingMachine')"><h2 class="product-names">Washing Machine</h2></li>
+                        </ul>
+                        <div class="sub-tab-content active" id="fridge">
+                            <div class="product-main">
+                                <h3 class="sub-heading">Refrigerator</h3>
+                                <div class="horizental"></div>
+                                <div class="product-box" id="product-box1">
+                                    <div class="my-products">
+                                        <img src="images/fridge/01.png" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/fridge/02.webp" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/fridge/03.jpg" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/fridge/04.avif" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/fridge/04.jpg" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/fridge/07.png" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                        <div id="washingMachine" class="sub-tab-content">
+                            <div class="product-main">
+                                <h3 class="sub-heading">HP Series</h3>
+                                <div class="horizental1"></div>
+                                <div class="product-box" id="product-box2">
+                                    <div class="my-products">
+                                        <img src="images/wm/01.webp" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/wm/02.jpg" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/wm/04.webp" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/wm/06.webp" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/wm/03.png" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="my-products">
+                                        <img src="images/wm/08.webp" alt="" loading="lazy">
+                                        <h2 class="lp-name">Inspiron</h2>
+                                        <div class="book-read">
+                                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                            <h2><a href="">Details</a></h2>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="homeTheatres" class="tab-content">
+                    <h2 class="heading">Home Theatres</h2>
+                    <div class="horizental-line1"></div>
+                    <div class="product-main">
+                        <div class="horizental"></div>
+                        <div class="product-box" id="product-box3">
+                            <div class="my-products">
+                                <img src="images/hm/01.jpg" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/hm/02.jpg" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/hm/03.jpg" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/hm/04.webp" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/hm/05.webp" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/hm/06.jpg" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                            <div class="my-products">
+                                <img src="images/hm/07.webp" alt="" loading="lazy">
+                                <h2 class="lp-name">Inspiron</h2>
+                                <div class="book-read">
+                                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                    <h2><a href="">Details</a></h2>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <h2>Get Connected</h2>
+        <div class="social-links">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-telegram"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div class="links-container">
+            <ul>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Products</a></li>
+                <li><a href="#">Best Selling</a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p><i class="fa-regular fa-copyright"></i> All rights reserved</p>
+        </div>
+    </footer>
+    
+    <script src="/script.js"></script>
+</body>
+</html>

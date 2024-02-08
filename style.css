@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+}
+nav{
+    background-color: rgb(57, 136, 211);
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    padding: 4px 18px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.left,.mid{
+    position: absolute;
+    padding: 4px 6px;
+}
+.mid{
+    left:30%;
+    width:30%
+
+}
+.mid .search{
+    border-radius: 50px;
+    padding: 10px 14px;
+    width: 100%;
+    border: none;
+}
+.right{
+    display:flex;
+    position: absolute;
+    left: 70%;
+
+}
+.right .icon-titles{
+    padding:8px;
+    margin-left: 20px;
+}
+.right .icon-titles a{
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    font-size: 18px;
+}
+.right .icon-titles .fa-angle-down{
+    font-size: 14px;
+}
+.right .icon-titles i{
+    padding:2px 4px;
+}
+.right .icon-titles a h3{
+    margin-left: 10px;
+    
+}
+.fa-ellipsis-vertical{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    transition: 0.1s ease-in-out;
+    position: fixed;
+}
+.fa-ellipsis-vertical:hover{
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.589);
+
+}
+.drop-menu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width:250px;
+    height: auto;
+    background-color: rgb(148, 203, 255);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 0;
+    margin-top: 5%;
+    right: 60%;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+    overflow: hidden;
+}
+#drop-menu-contact{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width:250px;
+    height: auto;
+    background-color: rgb(148, 203, 255);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 0;
+    margin-top: 8%;
+    right: 0;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+    overflow: hidden;
+}
+.drop-menu h4{
+    font-size: 14px;
+    padding-top: 5px;
+
+}
+.drop-menu ul li{
+    list-style: none;
+    padding: 4px 8px;
+    text-align: center;
+}
+.drop-menu ul li:first-child{
+    display: flex;
+    flex-direction: row;
+}
+.drop-menu ul li a{
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.drop-menu ul li .sign{
+    color: blue;
+}
+.drop-menu ul li a:hover{
+    color: blue;
+    font-weight: 600;
+}
+.right #user:hover .drop-menu{
+    visibility: visible;
+    height: 220px;
+}
+.right #contact:hover .drop-menu{
+    visibility: visible;
+    height: 150px;
+
+}
+.toggle{
+    position: absolute;
+    left: 90%;
+    padding: 8px;
+    font-size: 22px;
+    display: none;
+}
+.drop-responsive{
+    margin-top: 6%;
+    left: 60%;
+    width: 250px;
+    height: 0;
+    background-color: rgb(77, 77, 180);
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+
+}
+.drop-responsive ul li:first-child{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+.drop-responsive ul li{
+    list-style: none;
+    text-align: center;
+    padding: 4px 0;
+}
+.drop-responsive.open{
+    height: 250px;
+}
+.drop-responsive ul li h4{
+    color: rgb(137, 175, 233);
+
+
+}
+.drop-responsive ul li:first-child a{
+    color: white;
+    margin-left: 5px;
+}
+.drop-responsive ul li a{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.drop-responsive ul li a:hover{
+    color: blue
+}
+@media(max-width:768px){
+    .right{
+        visibility: hidden;
+    }
+    .toggle{
+        display: block;
+    }
+    .drop-responsive{
+        display: block;
+    }
+
+}
+@media(max-width:992px){
+    .right{
+        visibility: hidden;
+    }
+    .toggle{
+        display: block;
+    }
+    .drop-responsive{
+        display: block;
+    }
+
+}
+@media(max-width:1280px){
+    .right{
+        visibility: hidden;
+    }
+    .toggle{
+        display: block;
+    }
+    .drop-responsive{
+        display: block;
+    }
+
+}
