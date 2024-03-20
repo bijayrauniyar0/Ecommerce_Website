@@ -12,7 +12,7 @@ toggled.onclick = function()
     :'fa-solid fa-bars'
 }
 
-
+// function for tabs
 function openProducts(evt, productName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tab-content");
